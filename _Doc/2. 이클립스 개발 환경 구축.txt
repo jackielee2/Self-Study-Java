@@ -43,9 +43,177 @@
 		설치..
 	------------
 
-		-	
+		----------
+		-	개요..
+		----------
+
+			-	이클립스는 자바 언어로 개발된
+				툴이기 때문에 JDK가 필요..
+
+				ㄴ	이미 JDK를 설치했으므로
+					이클립스 설치 파일만
+					다운로드 하면 됨..
 			
+				ㄴ	https://www.eclipse.org/
+
+
+		----------
+		-	설치..
+		----------
+
+			1)	이클립스 설치 파일 다운..
+
+				ㄴ	https://www.eclipse.org/ 상단
+					다운로드 버튼 클릭..
+
+
+			2)	[ Install your favorite desktop IDE packages ]
+				> [ Download x86_64 ] 클릭..
+
 			
+			3)	다운 받은 파일을
+				[ 관리자 권한으로 실행 ]
+
+
+			4)	[ eclipse installer ]
+				설치 옵션 선택..
+				
+					-	주요 옵션..
+	
+						ㄴ	[ Eclipse IDE for Enterprise Developers ]
+
+						ㄴ	[ Eclipse IDE for Enterprise Java and Web Developers ]
+							
+							ㄴ	[ Eclipse IDE for Enterprise Developers ] + 웹 개발 지원..
+
+
+			5)	[ VM ] 및 경로 지정 후 설치..
+
+
+
+	-----------------
+	4)	워크 스페이스
+		폴더 지정..
+	-----------------
+
+		----------
+		-	개요..
+		----------
+		
+			-	이클립스를 실행하여 프로젝트가
+				관리될 워크스페이스 폴더를 지정..
+
+
+		----------
+		-	적용..
+		----------
+
+			1)	[ Eclipse IDE Launcher ]
+				> [ Select a directory as workspace ]
+
+				> [ Workspace ]
+					ㄴ	폴더 설정..
+
+				> [ Use this as the default and do not ask again ]
+					ㄴ	기본 워크 스페이스로 설정하고 
+						대화 상자를 실행하지 않음..
+
+					ㄴ	워크 스페이스를 변경할 필요도
+						있으므로 체크 해제..
+
+
+			2)	[ Welcome 탭 ]
+				> [ Always show Welcome at start up ]
+					
+					ㄴ	false..
+
+				설정 후 [ Welcome 탭 ] 창 닫기..
+
+
+			-----------------
+			**	이클립스
+				초기화 방법..
+			-----------------
+
+				-	[ 워크 스페이스 폴더 ]
+					> [ .metadata ] 폴더가 있음..
+
+				-	실행할 때 적용되는 메타 데이터들을
+					저장하는 폴더..
+
+					-	메타 데이터..
+
+						ㄴ	색상 태마, 폰트 종류,
+							폰트 크기 등을 의미..
+
+						ㄴ	이클립스가 재시작할 경우
+							이전에 작업한 환경을 복원할
+							목적으로 사용..
+
+				-	이클립스를 초기 상태로 복원하기..
+
+					1)	이클립스 종료..
+
+					2)	[ 워크스페이스 폴더 ]
+						> [ .metadata 폴더 ] 삭제
+
+					3)	이클립스 재시작..
+						ㄴ	[ .metadata 폴더 ]가
+							다시 생성됨..
+					
+
+
+			---------------------
+			**	퍼스펙티브와 뷰..
+			---------------------
+
+				-	[ 퍼스펙티브 ]
+
+					ㄴ	이클립스에서 프로젝트를 개발할 때
+						유용하게 사용가능한 [ 뷰 ]들을
+						미리 묶어 이름을 붙여놓은 것..
+
+						ㄴ	[ 뷰 ]
+
+							ㄴ	이클립스 내부에서
+								사용되는 작은 창..
+
+
+				-	[ Eclipse IDE for Enterprise Java and Web Developers ] 버전의
+					이클립스는 기본적으로 [ Java EE 퍼스펙티브 ]를
+					보여줌..
+
+					ㄴ	처음 학습할 때는
+						[ Java 퍼스펙티브 ]를
+						사용하길 권장..
+
+					ㄴ	변경..
+
+						ㄴ	[ 메뉴 ]
+							> [ Window ]
+							> [ Perspective ]
+							> [ Open Perspective ]
+							> [ Java ] 선택..
+
+
+				-	[ Package Explorer 뷰 ]
+
+					ㄴ	프로젝트를 관리하고
+						자바 소스 파일을 생성 및 삭제..
+
+					ㄴ	가장 많이 사용하는 뷰..
+						
+						
+				-	[ Console 뷰 ]
+
+					ㄴ	프로그램에서 출력하는
+						내용을 확인 가능..
+
+					ㄴ	[ 메뉴 ]
+						> [ Window ]
+						> [ Show View ]
+						> [ Console ]
+
 
 
 
@@ -56,5 +224,10 @@
 		혼자 공부하는 자바(개정판)
 		https://hongong.hanbit.co.kr/%EC%9E%90%EB%B0%94/
 
+		관리자 권한으로 실행 왜 하는 것일까
+		https://minkimusic.tistory.com/879
+
+		관리자 권한으로 프로그램 실행
+		https://minimax95.tistory.com/entry/%EA%B4%80%EB%A6%AC%EC%9E%90-%EA%B6%8C%ED%95%9C%EC%9C%BC%EB%A1%9C-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89
 
 ==========================================================
