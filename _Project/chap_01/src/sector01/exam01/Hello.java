@@ -1,4 +1,4 @@
-package sec01.exam01;
+package sector01.exam01;
 
 public class Hello {
 
