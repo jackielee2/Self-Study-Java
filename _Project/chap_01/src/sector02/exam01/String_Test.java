@@ -1,4 +1,4 @@
-package sector02.exam05;
+package sector02.exam01;
 
 public class String_Test {
 

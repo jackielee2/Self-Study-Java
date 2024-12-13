@@ -1,4 +1,4 @@
-package sector02.exam04;
+package sector02.exam01;
 
 public class Char_Test {
 	

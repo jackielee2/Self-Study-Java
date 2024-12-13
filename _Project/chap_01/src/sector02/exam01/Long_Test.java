@@ -1,4 +1,4 @@
-package sector02.exam03;
+package sector02.exam01;
 
 public class Long_Test {
 	public static void main(String[] args) {

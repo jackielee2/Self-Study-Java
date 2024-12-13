@@ -1,4 +1,4 @@
-package sector02.exam06;
+package sector02.exam01;
 
 public class Float_Double_Test {
 

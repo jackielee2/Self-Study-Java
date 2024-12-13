@@ -1,4 +1,4 @@
-package sector02.exam07;
+package sector02.exam01;
 
 public class boolean_Test {
 

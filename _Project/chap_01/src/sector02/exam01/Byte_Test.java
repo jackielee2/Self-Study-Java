@@ -1,4 +1,4 @@
-package sector02.exam02;
+package sector02.exam01;
 
 public class Byte_Test {
 	
