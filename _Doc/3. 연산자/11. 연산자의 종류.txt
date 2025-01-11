@@ -68,16 +68,22 @@
 
 
 			ㄴ	문자열 결합 연산자..
-				[ 참고 ] : [ StringConcat_Test.java ]	<-----------	넥스트!!!
+				[ 참고 ] : [ StringConcat_Test.java ]
 
 				ㄴ	+..
 
 
-
 			ㄴ	비교 연산자..
+				[ 참고 ] : [ CompareConcat_Test.java ]
+
+				ㄴ	<, <=, >, >=, ==, !=..
 
 
 			ㄴ	논리 연산자..
+				[ 참고 ] : [ LogicalOperator_Test.java ]	<----- 넥스트!!!
+
+				ㄴ	&, &&, |, ||, ^, !..
+
 
 
 			ㄴ	대입 연산자..
