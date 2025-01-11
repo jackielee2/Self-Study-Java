@@ -81,7 +81,12 @@ public class CompareConcat_Test {
 		//		( -	0.10000000149011612 )
 		//	-	부동소수점 방식이 0.1을
 		//		정확히 표현 불가..
-		boolean res7 = 0.1 == 0.1f;
+		//	-	솔루션..
+		//		ㄴ	둘다 float 또는 int로
+		//			변환하여 비교..
+		boolean res7 = 0.1 == 0.1f;		//	---	( X )
+		//boolean res7 = (float)0.1 == 0.1f;		//	---	( O )
+		//boolean res7 = (int)0.1 == (int)0.1f;		//	---	( O )
 		System.out.println("res7 = " + res7);
 		
 		
