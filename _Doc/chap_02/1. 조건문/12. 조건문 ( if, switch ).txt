@@ -102,6 +102,8 @@
 	------------------
 	2-2)	switch문..
 			[ 참고 ] :	[ Switch_Test_1.java ]
+						[ Switch_Test_2.java ]
+						[ Switch_Test_3.java ]						
 	------------------
 
 		-	형식..
