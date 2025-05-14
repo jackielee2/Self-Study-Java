@@ -28,7 +28,7 @@ public class Switch_Test_3 {
 				
 		}//	switch( grade )
 		
-		//*-------------------------------------
+		/*-------------------------------------
 		String pos = "과장";
 		
 		switch( pos )
